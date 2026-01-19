@@ -1,0 +1,1 @@
+{"type":"View","props":{"width":40,"height":79},"compId":2,"child":[{"type":"Image","props":{"var":"icon","skin":"res/image/com/planeWar/bullet1.png","centerY":0,"centerX":0},"compId":30}],"loadList":["res/image/com/planeWar/bullet1.png"],"loadList3D":[]}

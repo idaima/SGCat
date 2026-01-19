@@ -1,0 +1,38 @@
+[
+  {
+    "key": "buy_success",
+    "value": "充值成功!"
+  },
+  {
+    "key": "buy_fail",
+    "value": "充值失败!"
+  },
+  {
+    "key": "not_enough_gold",
+    "value": "钻石不足!"
+  },
+  {
+    "key": "item_use",
+    "value": "道具使用成功！"
+  },
+  {
+    "key": "can_not_use_prop",
+    "value": "当前道具不可用！"
+  },
+  {
+    "key": "zero_prop",
+    "value": "该道具数量不足！"
+  },
+  {
+    "key": "not_enough_sp",
+    "value": "体力不足!"
+  },
+  {
+    "key": "buy_item_success",
+    "value": "购买道具成功！"
+  },
+  {
+    "key": "sp_add_success",
+    "value": "体力增加！"
+  }
+]

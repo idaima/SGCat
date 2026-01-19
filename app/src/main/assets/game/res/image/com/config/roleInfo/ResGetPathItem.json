@@ -1,0 +1,1 @@
+{"type":"View","props":{"width":80,"height":80},"compId":2,"child":[{"type":"Button","props":{"y":0,"x":0,"var":"btn","stateNum":1},"compId":3,"child":[{"type":"Script","props":{"runtime":"utils/script/ScaleButton.ts"},"compId":4}]}],"loadList":[],"loadList3D":[]}

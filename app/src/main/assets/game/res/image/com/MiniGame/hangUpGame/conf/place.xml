@@ -1,0 +1,7 @@
+<places>
+        <place id="1" name="一级封地" yuanbao="10" coins="1000" />
+        <place id="2" name="二级封地" cost="1000" yuanbao="20" coins="5000" />
+        <place id="3" name="三级封地" cost="2000" yuanbao="30" coins="10000" />
+        <place id="4" name="四级封地" cost="3000" yuanbao="40" coins="15000" />
+        <place id="5" name="五级封地" cost="4000" yuanbao="50" coins="20000" />
+</places>

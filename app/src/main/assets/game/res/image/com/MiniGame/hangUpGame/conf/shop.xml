@@ -1,0 +1,9 @@
+<shops>
+        <shop id="1" money="6" />
+        <shop id="2" money="30" />
+        <shop id="3" money="68" />
+        <shop id="4" money="128" />
+        <shop id="5" money="198" />
+        <shop id="16" money="328" />
+        <shop id="17" money="648" />
+</shops>

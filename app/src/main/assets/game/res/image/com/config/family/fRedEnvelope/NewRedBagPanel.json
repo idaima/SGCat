@@ -1,0 +1,1 @@
+{"type":"View","props":{"width":720,"mouseThrough":true,"height":1280},"compId":2,"child":[{"type":"Image","props":{"var":"imgRedBag","skin":"res/image/cn/main/image_hongbaorukou.png","right":97,"pivotY":55,"pivotX":42,"centerY":6},"compId":3}],"loadList":["res/image/cn/main/image_hongbaorukou.png"],"loadList3D":[]}

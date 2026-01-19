@@ -1,0 +1,1 @@
+{"type":"View","props":{"width":80,"height":100},"compId":2,"child":[{"type":"Image","props":{"top":0,"skin":"res/image/com/hrdGame/touxiang_kuang_1bg.png","right":0,"left":0,"bottom":0},"compId":38},{"type":"Image","props":{"var":"icon","centerY":0,"centerX":0},"compId":34}],"loadList":["res/image/com/hrdGame/touxiang_kuang_1bg.png"],"loadList3D":[]}

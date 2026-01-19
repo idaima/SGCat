@@ -1,0 +1,1 @@
+{"type":"View","props":{"width":330,"height":25},"compId":2,"child":[{"type":"HTMLDivElement","props":{"y":0,"x":0,"width":330,"var":"html","innerHTML":"htmlText","height":22,"runtime":"Laya.HTMLDivElement"},"compId":3,"child":[{"type":"Script","props":{"runtime":"utils/script/HtmlElement.ts"},"compId":6}]}],"loadList":[],"loadList3D":[]}

@@ -1,0 +1,1 @@
+{"type":"View","props":{"width":598,"height":20},"compId":2,"child":[{"type":"Text","props":{"y":0,"x":149,"width":300,"var":"timeText","text":"text","fontSize":22,"color":"#a09478","align":"center","runtime":"Laya.Text"},"compId":3,"child":[{"type":"Script","props":{"customType":"2","runtime":"utils/script/TTFComponent.ts"},"compId":4}]}],"loadList":[],"loadList3D":[]}

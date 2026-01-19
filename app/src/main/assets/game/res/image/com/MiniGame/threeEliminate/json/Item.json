@@ -1,0 +1,37 @@
+[
+  {
+    "ID": 1,
+    "name": "体力",
+    "image": "item1.png",
+    "cost": 20,
+    "desc": "恢复100体力值"
+  },
+  {
+    "ID": 2,
+    "name": "堆叠",
+    "image": "item2.png",
+    "cost": 20,
+    "desc": "把前三张牌放入上方牌堆中"
+  },
+  {
+    "ID": 3,
+    "name": "回退",
+    "image": "item3.png",
+    "cost": 20,
+    "desc": "回退到上一次操作"
+  },
+  {
+    "ID": 4,
+    "name": "洗牌",
+    "image": "item4.png",
+    "cost": 20,
+    "desc": "获得一次洗牌机会"
+  },
+  {
+    "ID": 5,
+    "name": "复活",
+    "image": "item5.png",
+    "cost": 20,
+    "desc": "获得一次复活机会"
+  }
+]

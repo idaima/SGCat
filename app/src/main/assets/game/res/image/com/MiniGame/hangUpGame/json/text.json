@@ -1,0 +1,106 @@
+[
+  {
+    "key": "buy_success",
+    "value": "充值成功"
+  },
+  {
+    "key": "buy_fail",
+    "value": "充值失败"
+  },
+  {
+    "key": "not_enough_gold",
+    "value": "元宝不足"
+  },
+  {
+    "key": "all_cost",
+    "value": "总花费钻石"
+  },
+  {
+    "key": "cost_under",
+    "value": "过关花费小于"
+  },
+  {
+    "key": "move_role",
+    "value": "移动角色，使用"
+  },
+  {
+    "key": "attack_monster",
+    "value": "攻击怪物"
+  },
+  {
+    "key": "chapter",
+    "value": "第#{0}关"
+  },
+  {
+    "key": "gold",
+    "value": "元宝"
+  },
+  {
+    "key": "coin",
+    "value": "铜钱"
+  },
+  {
+    "key": "today_signed",
+    "value": "今天已领取!"
+  },
+  {
+    "key": "in_mission",
+    "value": "任务中..."
+  },
+  {
+    "key": "mission_complete",
+    "value": "任务完成!"
+  },
+  {
+    "key": "mission_tips",
+    "value": "请先完成前面的任务"
+  },
+  {
+    "key": "not_enough_coin",
+    "value": "铜钱不足"
+  },
+  {
+    "key": "unlock_success",
+    "value": "解封成功!"
+  },
+  {
+    "key": "unlock_tips",
+    "value": "是否消耗#{0}元宝解锁#{1}级封地?"
+  },
+  {
+    "key": "hero",
+    "value": "英雄"
+  },
+  {
+    "key": "chip",
+    "value": "碎片"
+  },
+  {
+    "key": "mission_time",
+    "value": "任务时间"
+  },
+  {
+    "key": "one",
+    "value": "一"
+  },
+  {
+    "key": "two",
+    "value": "二"
+  },
+  {
+    "key": "three",
+    "value": "三"
+  },
+  {
+    "key": "four",
+    "value": "四"
+  },
+  {
+    "key": "five",
+    "value": "五"
+  },
+  {
+    "key": "fight_tips",
+    "value": "请选择最正确的攻击方式!"
+  }
+]

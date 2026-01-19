@@ -1,0 +1,102 @@
+[
+  {
+    "ID": 1,
+    "USD": 0.99,
+    "JPY": 100,
+    "KRW": 1100,
+    "CNY": 6,
+    "gold": 60,
+    "send_id": "vuckpn6",
+    "image": "res/UIImages/Shop/gold1.png"
+  },
+  {
+    "ID": 2,
+    "USD": 4.99,
+    "JPY": 600,
+    "KRW": 5500,
+    "CNY": 30,
+    "gold": 300,
+    "send_id": "vuckpn30",
+    "image": "res/UIImages/Shop/gold2.png"
+  },
+  {
+    "ID": 3,
+    "USD": 9.99,
+    "JPY": 1500,
+    "KRW": 14000,
+    "CNY": 68,
+    "gold": 680,
+    "send_id": "vuckpn68",
+    "image": "res/UIImages/Shop/gold3.png"
+  },
+  {
+    "ID": 4,
+    "USD": 14.99,
+    "JPY": 2200,
+    "KRW": 22000,
+    "CNY": 98,
+    "gold": 980,
+    "send_id": "vuckpn98",
+    "image": "res/UIImages/Shop/gold4.png"
+  },
+  {
+    "ID": 5,
+    "USD": 19.99,
+    "JPY": 3000,
+    "KRW": 29000,
+    "CNY": 128,
+    "gold": 1280,
+    "send_id": "vuckpn128",
+    "image": "res/UIImages/Shop/gold5.png"
+  },
+  {
+    "ID": 6,
+    "USD": 29.99,
+    "JPY": 4500,
+    "KRW": 44000,
+    "CNY": 198,
+    "gold": 1980,
+    "send_id": "vuckpn198",
+    "image": "res/UIImages/Shop/gold6.png"
+  },
+  {
+    "ID": 7,
+    "USD": 39.99,
+    "JPY": 6000,
+    "KRW": 55000,
+    "CNY": 258,
+    "gold": 2580,
+    "send_id": "vuckpn258",
+    "image": "res/UIImages/Shop/gold7.png"
+  },
+  {
+    "ID": 8,
+    "USD": 49.99,
+    "JPY": 7000,
+    "KRW": 66000,
+    "CNY": 328,
+    "gold": 3280,
+    "send_id": "vuckpn328",
+    "image": "res/UIImages/Shop/gold8.png"
+  },
+  {
+    "ID": 9,
+    "USD": 74.99,
+    "JPY": 10000,
+    "KRW": 99000,
+    "CNY": 488,
+    "gold": 4880,
+    "send_id": "vuckpn488",
+    "image": "res/UIImages/Shop/gold9.png"
+  },
+  {
+    "ID": 10,
+    "USD": 99.99,
+    "JPY": 15000,
+    "KRW": 149000,
+    "CNY": 648,
+    "gold": 6480,
+    "send_id": "vuckpn648",
+    "image": "res/UIImages/Shop/gold10.png"
+  }
+]
