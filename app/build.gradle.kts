@@ -20,6 +20,18 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    flavorDimensions += "assets"
+
+    productFlavors {
+        create("full") {
+            dimension = "assets"
+        }
+
+        create("lite") {
+            dimension = "assets"
+        }
+    }
+
     buildTypes {
         debug {
             isMinifyEnabled = false
@@ -65,10 +77,21 @@ android {
 
     applicationVariants.all {
         val variant = this
+
+        if (variant.flavorName == "lite") {
+            variant.mergeAssetsProvider.configure {
+                doLast {
+                    val assetsDir = outputDir.get().asFile
+                    assetsDir.listFiles()?.forEach { it.deleteRecursively() }
+                }
+            }
+        }
+
         variant.outputs.all {
             val output = this as com.android.build.gradle.internal.api.BaseVariantOutputImpl
             if (variant.buildType.name == "release") {
-                output.outputFileName = "sgcat-${variant.versionName}-release.apk"
+                output.outputFileName =
+                    "sgcat-${variant.versionName}-${variant.flavorName}-release.apk"
             }
         }
     }
