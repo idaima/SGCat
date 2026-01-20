@@ -329,6 +329,19 @@ fun FloatingWindow(
                                         }
                                     )
                                     DropdownMenuItem(
+                                        text = { Text("清除缓存") },
+                                        onClick = {
+                                            // 清除 WebView 缓存
+                                            mainWebView?.clearCache(true)
+                                            floatingWebView?.clearCache(true)
+                                            // 重新加载所有 H5 页面
+                                            mainWebView?.reload()
+                                            floatingWebView?.reload()
+                                            showMenu = false
+                                            isExpanded = false
+                                        }
+                                    )
+                                    DropdownMenuItem(
                                         text = { Text("退出登录") },
                                         onClick = {
                                             // 清除主 WebView 的登录信息并刷新页面
