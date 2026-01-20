@@ -62,6 +62,16 @@ android {
             )
         }
     }
+
+    applicationVariants.all {
+        val variant = this
+        variant.outputs.all {
+            val output = this as com.android.build.gradle.internal.api.BaseVariantOutputImpl
+            if (variant.buildType.name == "release") {
+                output.outputFileName = "sgcat-${variant.versionName}-release.apk"
+            }
+        }
+    }
 }
 
 dependencies {
