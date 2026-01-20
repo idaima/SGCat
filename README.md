@@ -67,14 +67,40 @@ cd SGCat
 # 构建 Debug 版本
 ./gradlew assembleDebug
 
-# 构建 Release 版本
+# 构建 Release 版本（同时生成 full 和 lite 两个版本）
 ./gradlew assembleRelease
 ```
+
+### 构建版本
+
+项目支持两种构建版本（Product Flavors）：
+
+| 版本 | 说明 | 产物名称 |
+|------|------|----------|
+| **full** | 完整版，内置 assets 资源 | `sgcat-{version}-full-release.apk` |
+| **lite** | 精简版，不内置 assets 资源 | `sgcat-{version}-lite-release.apk` |
+
+```bash
+# 仅构建完整版
+./gradlew assembleFullRelease
+
+# 仅构建精简版
+./gradlew assembleLiteRelease
+
+# 同时构建两个版本
+./gradlew assembleRelease
+```
+
+产物位置：`app/build/outputs/apk/{flavor}/release/`
 
 ### 安装到设备
 
 ```bash
-./gradlew installDebug
+# 安装 full 版本
+./gradlew installFullDebug
+
+# 安装 lite 版本
+./gradlew installLiteDebug
 ```
 
 ## 📝 开发说明
