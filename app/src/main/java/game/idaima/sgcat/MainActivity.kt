@@ -28,10 +28,18 @@ class MainActivity : ComponentActivity() {
     companion object {
         private const val GAME_URL = "http://81.69.17.107:81"
         private const val GM_URL = "http://81.69.17.107:81/gm"
+        private const val KEY_WEBVIEW_STATE = "webview_state"
     }
+
+    // 保存 WebView 状态的 Bundle
+    private var savedWebViewState: Bundle? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        
+        // 恢复保存的 WebView 状态
+        savedWebViewState = savedInstanceState?.getBundle(KEY_WEBVIEW_STATE)
+        
         enableEdgeToEdge()
         hideSystemBars()
 
@@ -53,8 +61,15 @@ class MainActivity : ComponentActivity() {
                         // 主 WebView
                         WebViewScreen(
                             url = GAME_URL,
+                            savedState = savedWebViewState,
                             onWebViewCreated = { webView ->
                                 mainWebView = webView
+                            },
+                            onSaveState = { webView ->
+                                // 保存 WebView 状态供后续使用
+                                val bundle = Bundle()
+                                webView.saveState(bundle)
+                                savedWebViewState = bundle
                             },
                             modifier = Modifier
                                 .fillMaxSize()
@@ -75,6 +90,14 @@ class MainActivity : ComponentActivity() {
                     }
                 }
             }
+        }
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        // 保存 WebView 状态
+        savedWebViewState?.let {
+            outState.putBundle(KEY_WEBVIEW_STATE, it)
         }
     }
 
